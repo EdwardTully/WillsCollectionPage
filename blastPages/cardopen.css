@@ -1,0 +1,79 @@
+
+
+
+
+
+
+body {
+    width: 900px;
+    margin-left: 25rem;
+}
+header h1{
+    display:inline-block;
+    margin-top: 20px;
+    margin-left: 25rem;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+
+button {
+    width:125px;
+    height:65px;
+    border-radius: 5px;
+    background-color:aqua;
+    text-transform: uppercase;
+    border: 2px solid black;
+    margin-left: 55px;
+    margin-bottom: 5px;
+
+}
+button:active{
+    width: 122px;
+    height: 62px;
+    border: 3px solid darkgray;
+    background-color:rgba(0, 255, 255, 0.649)
+
+}
+
+ #opencard{
+    width: 800px;
+    background-color: white;
+    margin-top: 60px;
+    z-index: 1;
+    margin-top: 25px;
+}
+
+.info {
+    font-size: 22px;
+    font-family: "Courier";
+    background-color:whitesmoke
+
+}
+
+body {
+    background-color: whitesmoke ;
+}
+@media only screen and (max-width: 1010px){
+    #opencard{
+        margin-top:0px;
+
+    }
+    button{
+        width: 85px;
+        height: 55px;
+        margin:0px;
+    }
+    header h1{
+        display: none;
+    }
+}
